@@ -1,0 +1,9 @@
+.cache
+cache/
+.replit/
+.replit
+replit.nix
+.gitattributes
+*.nix
+.cache/replit/nix
+
