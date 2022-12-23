@@ -1,6 +1,6 @@
 module Hardness
   def data
-    {"talc" => 1, "calcite" => 3, "apatite" => 5, "corundum" => 9
+    {"talc" => 1, "calcite" => 3, "apatite" => 5, "corundum" => 9 }
   end
 
   def hardness
@@ -11,12 +11,12 @@ end
 
 class Mineral
     include Hardness
-    getter name: String
+    getter name : String
 
     def initialize(@name)
     end
 end
 
 
-min = Mineral.new("corumdum")
-min.hardness => 9
+min = Mineral.new("corundum")
+puts min.hardness
